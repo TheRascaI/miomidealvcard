@@ -61,7 +61,7 @@ function App() {
 
 {/* here's where the header ends & the content grows */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
-        <Row height={20}><Col className="zusatz" size={1}>Designed with ❤️ Based in Saarbrücken</Col></Row>
+        <Row height={20}><Col className="zusatz" size={1}>Designed with <span role="img">❤️</span> Based in Saarbrücken</Col></Row>
         </ScrollAnimation>
 {/* Firmbrand */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
