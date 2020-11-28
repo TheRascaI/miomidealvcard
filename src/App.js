@@ -11,7 +11,6 @@ import Button from './components/Button';
 import Spacer from './components/Spacer';
 import InnerRow from './components/InnerRow';
 import TextCol from './components/TextCol';
-import Contact from './components/Contact';
 import vcard from './vcard.vcf';
 import ScrollAnimation from 'react-animate-on-scroll';
 
