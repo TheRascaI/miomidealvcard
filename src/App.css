@@ -3,11 +3,11 @@ body {
   font-family: alwyn-new-rounded-web, sans-serif;
 font-weight: 400;
 font-style: normal;
-  color:#f1f3f6;
+  color:#302e63;
 }
 
 body{
-  background-color: #333333;
+  background-color: #ffffff;
 }
 .logo{
   width: 18rem;
@@ -22,23 +22,23 @@ body{
 }
 .button_link{
   text-decoration: none;
-  color: #f1f3f6;
+  color: #ee7427;
   }
 .main_col{
-  background-color:#333;
+  background-color:#fff;
 padding-top:5%;
 padding-bottom:5%;
 border-radius: 20px;
-box-shadow:  5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+box-shadow:  5px 5px 10px rgba(255,255,255,0.1),
+-5px -5px 10px #f1f3f6;
 
 -moz-box-shadow:
-5px 5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+5px 5px 10px rgba(255,255,255,0.1),
+-5px -5px 10px #f1f3f6;
 
 box-shadow:
-5px 5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+5px 5px 10px rgba(255,255,255,0.1),
+-5px -5px 10px #f1f3f6;
 }
 
 p, .zusatz{
@@ -48,7 +48,7 @@ p, .zusatz{
 
 i.icon{
   font-size:3em;
-  color:#f1f3f6;
+  color:#302e63;
   text-align: left;
 
 }
@@ -61,5 +61,5 @@ i.icon{
   width:20%;
   margin-left:auto;
   margin-right:10%;
-  background-color: #333;
+  background-color: #ffffff;
 }

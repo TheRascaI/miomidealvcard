@@ -2,35 +2,35 @@ import styled from 'styled-components';
 
 export const Contact = styled.div`
 
-background-color:#333;
+background-color:#fff;
 text-align: center;
 align-items: center;
 justify-content: center;
 padding:.65rem;
-border-radius: 20px;
+border-radius: 10px;
 box-shadow:5px 5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+-5px -5px 10px #f1f3f6;
 
 -moz-box-shadow:
 5px 5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+-5px -5px 10px #f1f3f6;
 
   box-shadow:
-5px 5px 10px rgba(0,0,0,0.1),
--5px -5px 10px #333 ;
+  5px 5px 10px rgba(0,0,05,0.1),
+  -5px -5px 10px #f1f3f6;
 
 &:hover {
   -webkit-box-shadow:
-  inset  10px 10px 20px rgba(0,0,0,0.05),
-   inset -15px -15px 20px #333;
+inset  5px 5px 10px rgba(0,0,0,0.1),
+inset  -5px -5px 10px #f1f3f6;
 
 -moz-box-shadow:
-  inset  10px 10px 20px rgba(0,0,0,0.05),
-   inset -15px -15px 20px #333;
+inset  5px 5px 10px rgba(0,0,0,0.1),
+inset  -5px -5px 10px #f1f3f6;
 
  box-shadow:
-  inset  10px 10px 20px rgba(0,0,0,0.05),
-   inset -15px -15px 20px #333;
+ inset  5px 5px 10px rgba(0,0,0,0.1),
+ inset  -5px -5px 10px #f1f3f6;
 }
 
 `;
