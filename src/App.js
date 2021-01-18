@@ -127,7 +127,7 @@ function App() {
           <Col size={1}><i className="icon-user icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}>André Schneider</Col>
+              <Col size={1}>André Schäfer</Col>
             </Row>
             <Row>
               <Col size={1}></Col>
