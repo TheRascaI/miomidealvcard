@@ -87,13 +87,30 @@ function App() {
         </ScrollAnimation>
 
         <Spacer height={10} />
+     <ScrollAnimation duration={2} animateIn="fadeIn">
+        <InnerRow>
+          <Col size={1}><i className="icon-mail-alt icon"/></Col>
+          <TextCol size={6}>
+            <Row>
+              <Col size={1}><a className="button_link" href="mailto:info@roba-con.de">info@roba-con.de</a></Col>
+            </Row>
+            <Row>
+              <Col size={1}>E-Mail</Col>
+            </Row>
+          </TextCol>
+          <Col size={1}></Col>
+        </InnerRow>
+        </ScrollAnimation>
 
-        <ScrollAnimation duration={2} animateIn="fadeIn">
+
+        <Spacer height={10} />
+    
+    <ScrollAnimation duration={2} animateIn="fadeIn">
         <InnerRow>
           <Col size={1}><i className="icon-user icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}>Alice Roßbach</Col>
+              <Col size={1}>Olaf Roßbach</Col>
             </Row>
             <Row>
               <Col size={1}></Col>
@@ -121,6 +138,7 @@ function App() {
         </ScrollAnimation>
 
         <Spacer height={10} />
+
 
         <ScrollAnimation duration={2} animateIn="fadeIn">
         <InnerRow>
@@ -155,13 +173,13 @@ function App() {
         </ScrollAnimation>
 
         <Spacer height={10} />
-
-        <ScrollAnimation duration={2} animateIn="fadeIn">
+    
+    <ScrollAnimation duration={2} animateIn="fadeIn">
         <InnerRow>
           <Col size={1}><i className="icon-user icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}>Olaf Roßbach</Col>
+              <Col size={1}>Alice Roßbach</Col>
             </Row>
             <Row>
               <Col size={1}></Col>
@@ -190,23 +208,9 @@ function App() {
 
         <Spacer height={10} />
 
-        <ScrollAnimation duration={2} animateIn="fadeIn">
-        <InnerRow>
-          <Col size={1}><i className="icon-mail-alt icon"/></Col>
-          <TextCol size={6}>
-            <Row>
-              <Col size={1}><a className="button_link" href="mailto:info@roba-con.de">info@roba-con.de</a></Col>
-            </Row>
-            <Row>
-              <Col size={1}>E-Mail</Col>
-            </Row>
-          </TextCol>
-          <Col size={1}></Col>
-        </InnerRow>
-        </ScrollAnimation>
+        
 
-
-        <Spacer height={10} />
+       
         <InnerRow><Col className="minilogo" size={1}><img className="minilogo" width="10%" src={mini_logo} alt="bildmarke robacon" /></Col></InnerRow>
 
   </Col>
