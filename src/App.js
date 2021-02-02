@@ -41,7 +41,7 @@ function App() {
         <Row padding={"0 10% 0 10%"}>
 
       <Col size={1}><a className="button_link" href={vcard} target="_blank" rel="noopener noreferrer">
-      <ScrollAnimation duration={4} animateIn="fadeIn">
+      <ScrollAnimation duration={6} animateIn="fadeIn">
         <Button className="button">
           <i className="icon-user-add icon"/>
         </Button>
@@ -51,7 +51,7 @@ function App() {
 
 
       <Col size={1}><a className="icon-mail icon" href="mailto:info@roba-con.de" target="_blank" rel="noopener noreferrer">
-      <ScrollAnimation duration={3} animateIn="fadeIn">
+      <ScrollAnimation duration={4} animateIn="fadeIn">
         <Button className="button">
           <i className="icon-mail-alt icon"/>
         </Button>
@@ -59,7 +59,7 @@ function App() {
         </a></Col>
 
         <Col size={1}><a className="icon-mail icon" href="https://goo.gl/maps/FFRrxa2TyPpVLdv36" target="_blank" rel="noopener noreferrer">
-        <ScrollAnimation duration={3} animateIn="fadeIn">
+        <ScrollAnimation duration={2} animateIn="fadeIn">
           <Button className="button">
             <i className="icon-location icon"/>
           </Button>
@@ -70,7 +70,7 @@ function App() {
 
 {/* here's where the header ends & the content grows */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
-        <Row height={20}><Col className="zusatz" size={1}>Unternehmensberatung</Col></Row>
+        <Row height={20}><Col className="zusatz" size={1}>Ihr Partner für Sozialimmobilien</Col></Row>
         </ScrollAnimation>
 {/* Firmbrand */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
@@ -80,13 +80,16 @@ function App() {
             <Row>
               <Col size={1}>ROBA-CON</Col>
             </Row>
+            <Row>
+              <Col size={1}><a className="button_link" href="tel:0261 9623461-0">0261 9623461-0</a></Col>
+            </Row>
           </TextCol>
           <Col size={1}></Col>
         </InnerRow>
 
         </ScrollAnimation>
 
-        <Spacer height={10} />
+        <Spacer height={5} />
      <ScrollAnimation duration={2} animateIn="fadeIn">
         <InnerRow>
           <Col size={1}><i className="icon-mail-alt icon"/></Col>
@@ -113,7 +116,7 @@ function App() {
               <Col size={1}>Olaf Roßbach</Col>
             </Row>
             <Row>
-              <Col size={1}></Col>
+              <Col size={1}>Betriebswirt(VWA)</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -127,10 +130,27 @@ function App() {
           <Col size={1}><i className="icon-phone icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:+49 123 45 67 89 0">+49 123 45 67 89 0</a></Col>
+              <Col size={1}><a className="button_link" href="tel:01603874377">0160 3874377</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
+            </Row>
+            
+          </TextCol>
+          <Col size={1}></Col>
+        </InnerRow>
+        </ScrollAnimation>
+
+           <Spacer height={5} />
+     <ScrollAnimation duration={2} animateIn="fadeIn">
+        <InnerRow>
+          <Col size={1}><i className="icon-mail-alt icon"/></Col>
+          <TextCol size={6}>
+            <Row>
+              <Col size={1}><a className="button_link" href="mailto:orossbach@roba-con.de">orossbach@roba-con.de</a></Col>
+            </Row>
+            <Row>
+              <Col size={1}>E-Mail</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -150,6 +170,7 @@ function App() {
             <Row>
               <Col size={1}></Col>
             </Row>
+
           </TextCol>
           <Col size={1}></Col>
         </InnerRow>
@@ -162,10 +183,27 @@ function App() {
           <Col size={1}><i className="icon-phone icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:+49 123 45 67 89 0">+49 123 45 67 89 0</a></Col>
+              <Col size={1}><a className="button_link" href="tel:017631229912">017631229912</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
+            </Row>
+            
+          </TextCol>
+          <Col size={1}></Col>
+        </InnerRow>
+        </ScrollAnimation>
+
+             <Spacer height={5} />
+     <ScrollAnimation duration={2} animateIn="fadeIn">
+        <InnerRow>
+          <Col size={1}><i className="icon-mail-alt icon"/></Col>
+          <TextCol size={6}>
+            <Row>
+              <Col size={1}><a className="button_link" href="mailto:aschaefer@roba-con.de">aschaefer@roba-con.de</a></Col>
+            </Row>
+            <Row>
+              <Col size={1}>E-Mail</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -193,13 +231,29 @@ function App() {
 
         <ScrollAnimation duration={2} animateIn="fadeIn">
         <InnerRow>
-          <Col size={1}><i className="icon-phone icon"/></Col>
+          <Col size={1}><i className="icon-phone icon"></i></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:+49 123 45 67 89 0">+49 123 45 67 89 0</a></Col>
+              <Col size={1}><a className="button_link" href="tel:01707572372">01707572372</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
+            </Row>
+          
+          </TextCol>
+          <Col size={1}></Col>
+        </InnerRow>
+        </ScrollAnimation>
+          <Spacer height={5} />
+     <ScrollAnimation duration={2} animateIn="fadeIn">
+        <InnerRow>
+          <Col size={1}><i className="icon-mail-alt icon"/></Col>
+          <TextCol size={6}>
+             <Row>
+              <Col size={1}><a className="button_link" href="mailto:arossbach@roba-con.de">arossbach@roba-con.de</a></Col>
+            </Row>
+            <Row>
+              <Col size={1}>E-Mail</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
