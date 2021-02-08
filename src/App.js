@@ -234,7 +234,7 @@ function App() {
           <Col size={1}><i className="icon-phone icon"></i></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:01707572372">01707572372</a></Col>
+              <Col size={1}><a className="button_link" href="tel:01717572372">01717572372</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
