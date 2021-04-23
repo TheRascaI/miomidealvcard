@@ -70,7 +70,7 @@ function App() {
 
 {/* here's where the header ends & the content grows */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
-        <Row height={20}><Col className="zusatz" size={1}>Ihr Partner für Sozialimmobilien</Col></Row>
+        <Row height={20}><Col className="zusatz" size={1}>Beratung für Einrichtungen der Pflege- und Sozialwirtschaft</Col></Row>
         </ScrollAnimation>
 {/* Firmbrand */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
@@ -81,7 +81,7 @@ function App() {
               <Col size={1}>ROBA-CON</Col>
             </Row>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:0261 9623461-0">0261 9623461-0</a></Col>
+              <Col size={1}><a className="button_link" href="tel:+492619623461-0">+49 (261) 9623461-0</a></Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -116,7 +116,10 @@ function App() {
               <Col size={1}>Olaf Roßbach</Col>
             </Row>
             <Row>
-              <Col size={1}>Betriebswirt(VWA)</Col>
+              <Col size={1}>Betriebswirt (VWA)</Col>
+            </Row>
+             <Row>
+              <Col size={1}>Geschäftsführender Gesellschafter</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -130,7 +133,7 @@ function App() {
           <Col size={1}><i className="icon-phone icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:01603874377">0160 3874377</a></Col>
+              <Col size={1}><a className="button_link" href="tel:+49(261)96234611">+49 (261) 9623461-1</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
@@ -183,7 +186,7 @@ function App() {
           <Col size={1}><i className="icon-phone icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:017631229912">017631229912</a></Col>
+              <Col size={1}><a className="button_link" href="tel:+49(261)9623461-2">+49 (261) 9623461-2</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
@@ -220,7 +223,7 @@ function App() {
               <Col size={1}>Alice Roßbach</Col>
             </Row>
             <Row>
-              <Col size={1}></Col>
+              <Col size={1}>Geschäftsführende Gesellschafterin</Col>
             </Row>
           </TextCol>
           <Col size={1}></Col>
@@ -234,7 +237,7 @@ function App() {
           <Col size={1}><i className="icon-phone icon"></i></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:01717572372">01717572372</a></Col>
+              <Col size={1}><a className="button_link" href="tel:+49(261)96234610">+49 (261) 9623461-0</a></Col>
             </Row>
             <Row>
               <Col size={1}>Telefon</Col>
